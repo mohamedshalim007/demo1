@@ -1,0 +1,22 @@
+ @import 'tailwindcss';
+ 
+.logo{
+  background-color: blue;
+  padding: 10px;
+  box-shadow: 2px 3px 10px gray;
+}
+.nav{
+  animation:nav 0.9s ease-in-out;
+  position: relative;
+
+}
+@keyframes  nav {
+  from{
+    top: -200px;
+
+  }
+  to{
+    top: 0;
+  }
+  
+}
